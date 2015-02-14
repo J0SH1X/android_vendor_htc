@@ -14,18 +14,19 @@
 
 # Adreno
 PRODUCT_COPY_FILES += \
-    vendor/htc/qsd8k-common/proprietary/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/htc/qsd8k-common/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/htc/qsd8k-common/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/htc/qsd8k-common/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/qsd8k-common/proprietary/libgsl.so:system/lib/libgsl.so \
-    vendor/htc/qsd8k-common/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/qsd8k-common/proprietary/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
-    vendor/htc/qsd8k-common/proprietary/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/htc/qsd8k-common/proprietary/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/htc/qsd8k-common/proprietary/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/htc/qsd8k-common/proprietary/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/htc/qsd8k-common/proprietary/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/htc/qsd8k-common/proprietary/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/htc/qsd8k-common/proprietary/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/htc/qsd8k-common/proprietary/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+    vendor/htc/qsd8k-common/proprietary/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/htc/qsd8k-common/proprietary/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/htc/qsd8k-common/proprietary/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \
     vendor/htc/qsd8k-common/proprietary/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw \
-    vendor/htc/qsd8k-common/proprietary/libOpenCL.so:system/lib/libOpenCL.so
+    vendor/htc/qsd8k-common/proprietary/libOpenCL.so:system/vendor/lib/libOpenCL.so
 
 # Omx
 PRODUCT_COPY_FILES += \
-    vendor/htc/qsd8k-common/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so
+    vendor/htc/qsd8k-common/proprietary/libOmxVidEnc.so:system/vendor/lib/libOmxVidEnc.so
